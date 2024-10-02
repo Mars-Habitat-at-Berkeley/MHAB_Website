@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 
 const MainPage: React.FC = () => {
-    const title = "Maars Habitat at Berkeley"; // Make sure there's no extra whitespace
+    const title = "Maars Habitat at Berkeley";
     const [displayedText, setDisplayedText] = useState('');
-    const typingSpeed = 100; // Typing speed in milliseconds
+    const typingSpeed = 100;
 
     useEffect(() => {
         let index = 0;
@@ -19,7 +19,7 @@ const MainPage: React.FC = () => {
         }, typingSpeed);
 
         return () => clearInterval(typeWriter);
-    }, []); // Ensure the effect runs only once
+    }, []);
 
     return (
         <div className="bg-gray-700 min-h-screen flex flex-col items-center overflow-hidden">
