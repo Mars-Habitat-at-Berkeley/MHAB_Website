@@ -13,6 +13,8 @@ const geistMono = localFont({
   weight: '100 900',
 });
 
+
+
 export const metadata: Metadata = {
   title: 'Mars Habitat At Berkeley',
   description: 'React Next JS app',
@@ -28,9 +30,7 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-700`}>
         {children}
       </body>
     </html>

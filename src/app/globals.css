@@ -2,14 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0e0e0;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
 :root {
   --background: #ffffff;
-  /* --foreground: #1; */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --background: ; */
     --foreground: #ededed;
   }
 }
