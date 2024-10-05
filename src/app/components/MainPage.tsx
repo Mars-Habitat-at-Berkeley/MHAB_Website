@@ -29,6 +29,7 @@ const MainPage: React.FC = () => {
                 </h1>
             </div>
         </div>
+        
     );
 };
 
