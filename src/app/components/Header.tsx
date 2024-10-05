@@ -5,20 +5,20 @@ const Header: React.FC = () => {
         <header className="fixed top-0 left-0 right-0 bg-transparent z-50">
             <nav className="container mx-auto p-4 flex items-center justify-between"> 
                 <div className="flex items-center ml-[-40px]">
-                    <img src="../images/icon.png" alt="Logo" className="h-12 w-auto" />
+                    <a href="/"><img src="../images/icon.png" alt="Logo" className="h-12 w-auto" /></a>
                 </div>
-                <ul className="flex justify-end space-x-8 mt-3">
+                <ul className="flex justify-end space-x-8 mt-3 mr-[-20px]">
                     <li>
-                        <Link href="/" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">Home</Link>
+                        <Link href="/" className="text-white-700 hover:text-white-900 visited:text-white-700">Home</Link>
                     </li>
                     <li>
-                        <Link href="#about" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">About</Link>
+                        <Link href="#about" className="text-white-700 hover:text-white-900 visited:text-white-700">About</Link>
                     </li>
                     <li>
-                        <Link href="#team" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">Team</Link>
+                        <Link href="#team" className="text-white-700 hover:text-white-900 visited:text-white-700">Team</Link>
                     </li>
                     <li>
-                        <Link href="#contact" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">Contact</Link>
+                        <Link href="#join-us" className="text-white-700 hover:text-white-900 visited:text-white-700">Join Us</Link>
                     </li>
                 </ul>
             </nav>
