@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import Typewriter from "./Typewriter";
 import alex from "../images/alex.jpg";
 import roblillis from "../images/roblillis.jpg";
 import peter from "../images/peter.jpg";
@@ -47,8 +46,8 @@ const MainPage: React.FC = () => {
         <div className="bg-slate-400 min-h-screen flex flex-col items-center overflow-auto">
             <div className="fixed top-40 left-1/2 transform -translate-x-1/2 text-center z-50">
                 {isVisible && (
-                    <h1 className="text-white text-7xl font-bold font-['Roboto']">
-                        <Typewriter />
+                    <h1 className="text-white text-7xl font-[geist]">
+                        Mars Habitat at Berkeley
                     </h1>
                 )}
             </div>
