@@ -12,6 +12,7 @@ export default function Home() {
     <div className="relative">
       <Header />
       <MainPage />
+      <Background />
       <IntroSection />
     </div>
   );
