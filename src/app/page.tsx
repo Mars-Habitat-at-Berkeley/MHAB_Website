@@ -1,6 +1,6 @@
 // import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.css';
-import Background from './components/Background';
+import Background from './components/background';
 import IntroSection from './components/Introduction';
 import Header from './components/Header';
 import MainPage from './components/MainPage';
@@ -12,7 +12,6 @@ export default function Home() {
     <div className="relative">
       <Header />
       <MainPage />
-      <Background />
       <IntroSection />
     </div>
   );

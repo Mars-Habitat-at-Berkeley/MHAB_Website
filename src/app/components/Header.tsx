@@ -9,16 +9,16 @@ const Header: React.FC = () => {
                 </div>
                 <ul className="flex justify-end space-x-8 mt-3">
                     <li>
-                        <Link href="/" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">Home</Link>
+                        <Link href="/" className="text-white-700 hover:text-white-900 visited:text-white-700">Home</Link>
                     </li>
                     <li>
-                        <Link href="#about" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">About</Link>
+                        <Link href="#about" className="text-white-700 hover:text-white-900 visited:text-white-700">About</Link>
                     </li>
                     <li>
-                        <Link href="#team" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">Team</Link>
+                        <Link href="#team" className="text-white-700 hover:text-white-900 visited:text-white-700">Team</Link>
                     </li>
                     <li>
-                        <Link href="#contact" className="text-white-700 hover:text-white-900 visited:text-white-700 no-underline">Contact</Link>
+                        <Link href="#contact" className="text-white-700 hover:text-white-900 visited:text-white-700">Contact</Link>
                     </li>
                 </ul>
             </nav>
