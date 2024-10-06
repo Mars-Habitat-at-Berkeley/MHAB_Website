@@ -7,7 +7,9 @@ import IntroSection from './components/introSection';
 // import { Head } from 'next/head';
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
+      <Header />
+      <MainPage />
       <Background />
       <IntroSection />
     </div>
