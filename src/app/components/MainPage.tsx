@@ -35,7 +35,7 @@ const MainPage: React.FC = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    
+
 
     return (
         <div className="bg-slate-400 min-h-screen flex flex-col items-center overflow-auto">
