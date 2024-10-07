@@ -6,27 +6,27 @@ const Header: React.FC = () => {
     const [isVisible, setIsVisible] = useState(true);
     const [isSidebarVisible, setIsSidebarVisible] = useState(true);
     const [isMobile, setIsMobile] = useState(false);
-    const breakpoint = 640; // Define your mobile breakpoint
+    const breakpoint = 640;
 
     useEffect(() => {
         const handleResize = () => {
-            const isHalfScreen = window.innerWidth <= window.screen.width / 2; // Check if width is half or less of the screen width
+            const isHalfScreen = window.innerWidth <= window.screen.width / 2;
             setIsMobile(window.innerWidth < breakpoint);
-            setIsVisible(!isHalfScreen); // Hide logo if screen is half or less
-            setIsSidebarVisible(!isHalfScreen); // Hide sidebar if screen is half or less
+            setIsVisible(!isHalfScreen);
+            setIsSidebarVisible(!isHalfScreen);
         };
 
         const handleScroll = () => {
             if (isMobile) {
                 if (window.scrollY > 50) {
-                    setIsVisible(false); // Hide logo when scrolling down on mobile
+                    setIsVisible(false);
                 } else {
-                    setIsVisible(true); // Show logo when at the top
+                    setIsVisible(true);
                 }
             }
         };
 
-        handleResize(); // Check initial width
+        handleResize();
         window.addEventListener('resize', handleResize);
         window.addEventListener('scroll', handleScroll);
 
@@ -45,7 +45,6 @@ const Header: React.FC = () => {
                     </a>
                 </div>
 
-                {/* Sidebar visibility logic */}
                 {isSidebarVisible && (
                     <ul className="hidden sm:flex flex-col items-end space-y-4 sm:mt-3 sm:mr-[-20px] font-geist text-lg text-white text-end">
                         <li>
