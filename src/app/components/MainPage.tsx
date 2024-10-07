@@ -188,9 +188,9 @@ const MainPage: React.FC = () => {
                 <div id="join-us" className="w-full flex flex-col justify-center items-center mt-10">
                     <p className="font-bold text-4xl text-stone-950 text-center mb-2">Get Involved!</p>
                     <div className="flex flex-col items-center space-y-4">
-                        <a href="mailto:marrsberkeley@gmail.com" className="flex items-center space-x-2 text-black pt-2">
+                        <a href="mailto:mhabberkeley@gmail.com" className="flex items-center space-x-2 text-black pt-2">
                             <EmailIcon fontSize="large" sx={{ color: 'black' }} />
-                            <span className="text-lg text-black">marrsberkeley@gmail.com</span>
+                            <span className="text-lg text-black">mhabberkeley@gmail.com</span>
                         </a>
                         <a href="https://instagram.com/mars.berkeley" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 mb-8 text-black">
                             <InstagramIcon fontSize="large" sx={{ color: 'black' }} />
