@@ -5,7 +5,7 @@ import roblillis from "../images/roblillis.jpg";
 import peter from "../images/peter.jpg";
 import shimaila from "../images/shimaila.jpg";
 import skyler from "../images/skyler.jpeg";
-import sebastian from "../images/sebastian.jpeg";
+import sebastian from "../images/sebastian.jpg";
 import renderedrover from "../images/renderedrover.jpg";
 import habitatmold from "../images/habitatmold.png";
 import roverparts from "../images/roverparts.gif";
