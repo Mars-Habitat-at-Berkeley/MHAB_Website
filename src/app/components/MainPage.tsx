@@ -14,6 +14,7 @@ import React, { useState, useEffect } from "react";
 
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import GithubIcon from '@mui/icons-material/GitHub';
 
 const MainPage: React.FC = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -38,7 +39,7 @@ const MainPage: React.FC = () => {
 
 
     return (
-        <div className="bg-slate-400 min-h-screen flex flex-col items-center overflow-auto">
+        <div id="home" className="bg-slate-400 min-h-screen flex flex-col items-center overflow-auto">
             <div className="fixed top-40 left-1/2 transform -translate-x-1/2 text-center z-50">
                 {isVisible && (
                     <h1 className="text-white text-7xl font-[geist]">
@@ -180,12 +181,17 @@ const MainPage: React.FC = () => {
                         </div>
                     </div>
                 </div>
+
                 <div id="join-us" className="w-full flex flex-col justify-center items-center mt-10">
                     <p className="font-bold text-4xl text-stone-950 text-center mb-2">Get Involved!</p>
                     <div className="flex flex-col items-center space-y-4">
                         <a href="mailto:mhabberkeley@gmail.com" className="flex items-center space-x-2 text-black pt-2">
                             <EmailIcon fontSize="large" sx={{ color: 'black' }} />
                             <span className="text-lg text-black">mhabberkeley@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/S3bast1anC/Manual-Exploration-Demonstrator_MED" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 mb-8 text-black">
+                            <GithubIcon fontSize="large" sx={{ color: 'black' }} />
+                            <span className="text-lg text-black">Our Github</span>
                         </a>
                         <a href="https://instagram.com/mars.berkeley" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 mb-8 text-black">
                             <InstagramIcon fontSize="large" sx={{ color: 'black' }} />

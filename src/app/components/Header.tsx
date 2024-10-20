@@ -40,7 +40,7 @@ const Header: React.FC = () => {
         <header className="fixed top-0 left-0 right-0 bg-transparent z-50">
             <nav className="container mx-auto p-4 flex items-center justify-between">
                 <div className={`flex items-center sm:ml-[-40px] sm:mt-[-120px] mt-[50px] justify-center w-full sm:justify-start transition-opacity duration-300 ${isVisible || !isMobile ? 'opacity-100' : 'opacity-0'}`}>
-                    <a href="/">
+                    <a href="#home">
                         <img src="../images/icon.png" alt="Logo" className="h-12 w-auto" />
                     </a>
                 </div>
@@ -48,7 +48,7 @@ const Header: React.FC = () => {
                 {isSidebarVisible && (
                     <ul className="hidden sm:flex flex-col items-end space-y-4 sm:mt-3 sm:mr-[-20px] font-geist text-lg text-white text-end">
                         <li>
-                            <Link href="/" className="text-white hover:text-white visited:text-white">Home</Link>
+                            <Link href="#home" className="text-white hover:text-white visited:text-white">Home</Link>
                         </li>
                         <li>
                             <Link href="#about" className="text-white hover:text-white visited:text-white">About</Link>
